@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anntrauf Arshid Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">
+                    <img src="c0118dba-f566-426a-b9f3-0f5caf289f21.jpeg" alt="Website Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section id="home">
+        <div class="intro">
+            <h1>Hi, I'm Anntrauf Arshid</h1>
+            <p id="tagline">A passionate <span id="dynamicText"></span></p>
+            <a href="#projects" class="btn">See My Work</a>
+        </div>
+
+        <!-- Image for the Home Section -->
+        <div class="image-container">
+            <img src="home.jpeg" alt="Portfolio Showcase" class="portfolio-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate front-end developer based in Multan, with 4+ years of experience in web development. I
+            specialize in creating responsive, dynamic websites using HTML, CSS, JavaScript, and I have expertise in
+            Adobe Photoshop and Illustrator for graphic design. I love bringing ideas to life in the browser.</p>
+
+        <h3>Skills</h3>
+        <ul class="skills">
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Design</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1: Recipe Sharing Platform</h3>
+            <p>A web-based platform for users to share and discover new recipes. This project involved using HTML, CSS,
+                JavaScript, and basic back-end technologies to create an interactive, user-friendly experience.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Personal Blog</h3>
+            <p>A responsive blog site where users can post articles and leave comments. Built with HTML, CSS Grid, and
+                JavaScript to ensure a smooth reading experience on all devices.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: Portfolio Website</h3>
+            <p>This portfolio website you're viewing now! It’s built with HTML, CSS, and JavaScript, showcasing my work
+                in web development and design.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I'm always open to discussing new projects or opportunities. Feel free to contact me!</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <button id="scrollToTop" style="display:none;">Top</button>
+
+    <footer>
+        <p>&copy; 2024 Anntrauf Arshid</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
